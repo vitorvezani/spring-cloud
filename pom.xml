@@ -14,8 +14,8 @@
 	</properties>
 
 	<modules>
-		<module>springboot-cloud-config-server</module>
-		<module>springboot-cloud-config-client</module>
+		<module>spring-cloud-config-server</module>
+		<module>spring-cloud-config-client</module>
 	</modules>
 
 </project>
