@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.vvezani</groupId>
-	<artifactId>spring-cloud-config-client</artifactId>
+	<artifactId>spring-cloud-bus-amqp-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-config-client</name>
+	<name>spring-cloud-bus-amqp-client</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -38,6 +38,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
 		</dependency>
 	</dependencies>
 
